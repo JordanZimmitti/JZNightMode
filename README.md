@@ -1,5 +1,5 @@
 # JZNightMode
-Library That Handles The Device Theme Based On The Sunset And Sunrise
+Library That Handles The Device Theme Based On The Sunrise And Sunset
 
 #### How To Access JZNightMode In Your Android App
 
