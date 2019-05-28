@@ -1,0 +1,60 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+// Android Gradle Data//
+android {
+
+    // SDK Version Library The Is Based On//
+    compileSdkVersion 28
+
+    // Build Types For The Library//
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // How The Library Is Configured//
+    defaultConfig {
+
+        // The Lowest Version Of Android The Library Can Run On//
+        minSdkVersion 21
+
+        // The Latest Version Of Android The Library Can Run On//
+        targetSdkVersion 28
+
+        // The Number Of Times The Library Was Updated//
+        versionCode 3
+
+        // The Library Version Number//
+        versionName "3.0.0"
+
+        // Tests Runner For The Library//
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    // Repositories For App//
+    repositories {
+
+        // Github Repositories//
+        jcenter()
+        mavenCentral()
+
+        // Maven Repository Urls//
+        maven { url 'https://jitpack.io' }
+        maven { url "https://maven.google.com" }
+    }
+}
+
+// Third Party Libraries//
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.core:core-ktx:1.0.1'
+    implementation 'com.github.delight-im:Android-SimpleLocation:v1.0.1'
+    implementation 'com.github.JordanZimmitti:JZDateTime:1.0.0'
+    implementation 'com.luckycatlabs:SunriseSunsetCalculator:1.2'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}

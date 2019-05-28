@@ -1,0 +1,2 @@
+include ':JZNightMode'
+rootProject.name='My Application'

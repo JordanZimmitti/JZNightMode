@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.JordanZimmitti:JZDateTime:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7dad37fd5a91edc47d8aa41b9581c74a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7dad37fd5a91edc47d8aa41b9581c74a/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.JordanZimmitti/JZDateTime/1.0.0/4489bffa2b6f410eb62875ee539137a3b0dbfa3c/JZDateTime-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
