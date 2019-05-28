@@ -44,7 +44,10 @@ The second way is
 #### Use JZNightMode To Get The Day-Theme Or Night-Theme
 
     // Gets The Theme Based On The Time Of Day//
-    jzNightMode.getTheme()
+    val theme = jzNightMode.getTheme()
+    
+    // Sets The Theme//
+    setTheme(theme)
 
 
 #### Getting The Sunrise And Sunset Times
