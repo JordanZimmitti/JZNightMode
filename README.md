@@ -15,9 +15,9 @@ Add these repositories to the android part of your app build.gradle
         maven { url 'https://jitpack.io' }
     }
     
-Add This line of code to the dependencies in your build.gradle (replace x.x.x with newest version below in green)
+Add This line of code to the dependencies in your build.gradle
 
-    implementation 'com.github.JordanZimmitti:JZNightMode:x.x.x'
+    implementation 'com.github.JordanZimmitti:JZNightMode:1.0.0'
 [![](https://jitpack.io/v/JordanZimmitti/JZNightMode.svg)](https://jitpack.io/#JordanZimmitti/JZNightMode)
 
 
