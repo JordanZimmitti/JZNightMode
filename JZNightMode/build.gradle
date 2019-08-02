@@ -29,7 +29,7 @@ android {
         versionCode 3
 
         // The Library Version Number//
-        versionName "3.0.0"
+        versionName "2.0.0-Beta"
 
         // Tests Runner For The Library//
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -51,7 +51,7 @@ android {
 // Third Party Libraries//
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation "androidx.appcompat:appcompat:1.0.2"
     implementation 'androidx.core:core-ktx:1.0.2'
     implementation 'com.github.delight-im:Android-SimpleLocation:v1.0.1'
     implementation 'com.github.JordanZimmitti:JZDateTime:1.0.0'
